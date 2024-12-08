@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Scheherazade+New:wght@400;500;600;700&family=Shippori+Mincho&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Poiret+One&family=Shippori+Mincho&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     <title>World News</title>
 </head>
 <body>
@@ -20,18 +20,16 @@
             </label>
             <div class="navegation">
             <nav>
+                <input type="search" name="pesquisa" id="" placeholder="Pesquise aqui...">
                 <ul>
                     <li>
-                        <a href="#esportes">Esportes</a>
+                        <a href="#noticias">Notícias</a>
                     </li>
                     <li>
-                        <a href="#economia">Economia</a>
+                        <a href="#">Sobre nós</a>
                     </li>
                     <li>
-                        <a href="#entretenimento">Entretenimento</a>
-                    </li>
-                    <li>
-                        <a href="#tecnologia">Tecnologia</a>
+                        <a href="#contact">Contato</a>
                     </li>
                 </ul>
             </nav>
@@ -39,12 +37,45 @@
         </div>
     </header>
     <main>
+        <section id="principal">
+            <div class="about">   
+                <img src="img/world.JPG" alt="Cidade Grande">
+                    <div class="main-page">
+                    <h1>Explore nosso site e fique por dentro do que está acontecendo!</h1>
+                    <p>Fique por dentro das notícias mais importantes do mundo, atualizadas em tempo real. Aqui você encontra análises, reportagens exclusivas e os fatos mais relevantes do momento, tudo em um só lugar.</p>
+                    <div class="shop">
+                    <a href=""><h2>Libere agora todo o conteúdo exclusivo.</h2></a>
+                    <h3>Por apenas R$1,90/mês </h3>
+                    <div id="noticias"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <header class="menu-news">
+                <nav>
+                    <ul>
+                        <a href="#esportes">
+                            <li>Esportes</li>
+                        </a>
+                        <a href="#economia">
+                            <li>Economia</li>
+                        </a>
+                        <a href="#entretenimento">
+                            <li>Entretenimento</li>
+                        </a>
+                        <a href="#tecnologia">
+                            <li>Tecnologia</li>
+                        </a>
+                    </ul>
+                </nav>
+            </header>
+        </section>
         <section id="esportes">
             <div class="container">
                 <header>
                 <h2>Esportes</h2>
                 </header>
-                <div class="linha"></div>
                 <div class="articles">
                     <article>
                         <header>
@@ -99,16 +130,15 @@
                         </header>
                         <p>O pacote prevê isenção de imposto de renda para quem ganhar até R$ 5 mil, enquanto quem ganha mais de R$ 50 mil poderá pagar mais para compensar a perda da arrecadação.</p>
                         <a href="#copa-nba">Ler mais</a>
-                    </article>
+                    </article>  
                 </div>
             </div>
         </section>
         <section id="economia">
             <div class="container">
                 <header>
-                <h2>Economia</h2>
+                <h2>Economia</h2>                
                 </header>
-                <div class="linha"></div>
                 <div class="articles">
                     <article>
                         <header>
@@ -163,7 +193,7 @@
                         </header>
                         <p>Risco fiscal é maior ameaça à estabilidade financeira, dizem bancos.</p>
                         <a href="#banco-central">Ler mais</a>
-                    </article>
+                    </article>                    
                 </div>
             </div>
         </section>
@@ -172,7 +202,6 @@
                 <header>
                 <h2>Entretenimento</h2>                
                 </header>
-                <div class="linha"></div>
                 <div class="articles">
                     <article>
                         <header>
@@ -226,7 +255,7 @@
                             <h3>Disney: parques e resorts terão “expansão sem precedentes”, diz executivo</h3>
                         </header>
                         <p>Josh D'Amaro, chairman da Disney Experiences, comenta expansão de US$ 60 bilhões (cerca de R$ 345 bi) nas experiências da companhia.</p>
-                        <a href="#disney">Ler mais</a>
+                        <a href="#disney">Ler mais</a>                        
                     </article>
                 </div>
             </div>
@@ -236,7 +265,6 @@
                 <header>
                 <h2>Tecnologia</h2>                
                 </header>
-                <div class="linha"></div>
                 <div class="articles">
                     <article>
                         <header>
@@ -295,9 +323,50 @@
                 </div>
             </div>
         </section>
+        <section id="contact">
+            <div class="contact-container">
+                <div class="contact-methods">
+                    <article>
+                        <h2>FALE CONOSCO</h2>
+                        <form>
+                            <input type="text" placeholder="Seu nome">
+                            <input type="email" placeholder="Seu e-mail">
+                            <input type="tel" placeholder="Seu telefone (opcional)">
+                            <textarea name="" id="" placeholder="Sua mensagem"></textarea>
+                            <button type="submit">Enviar</button>
+                        </form>
+                    </article>
+                    <article class="logos">
+                        <h2>NOS ACOMPANHE</h2>
+                        <ul>
+                            <li>
+                                <a href=""><img src="logos/Instagram_logo.png" alt=""></a>
+                            </li>
+                            <li>
+                                <a href=""><img src="logos/twitter-logo.png" alt=""></a>
+                            </li>
+                            <li>
+                                <a href=""><img src="logos/youtube-logo.png" alt=""></a>
+                            </li>
+                            <li>
+                                <a href=""><img src="logos/facebook-logo.png" alt=""></a>
+                            </li>
+                        </ul>
+                    </article>
+                    <article>
+                        <h2>ENDEREÇO</h2>
+                        <address>Rua JavaScript nº 123, vila HTML - Cascading Style Sheets/CSS</address>
+                    </article>
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
-    
+        <div class="rodape">
+            <p>
+                &copy; World News - Todos os direitos reservador - 2024
+            </p>
+        </div>
     </footer>
 </body>
 </html>
